@@ -1,3 +1,8 @@
+# What it does!
+
+Client service allows you to send a message on the terminal to the server and receive back the sha1 hash for the same. The setup uses gRPC along with protobuf which is scaled using docker, docker swarm and the response also includes the containerId where the response reached after hitting HAProxy.
+
+
 # How to use!
 To jump into one of the client nodes and start sending messages run :
 	
