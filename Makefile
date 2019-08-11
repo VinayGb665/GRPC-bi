@@ -16,7 +16,7 @@ clean:
 protoc:
 	protoc --go_out=plugins=grpc:. $(BUF_DIR)/service.proto
 	cp $(BUF_DIR)/service.pb.go $(CL_DIR)/
-	cp $(BUF_DIR)/service.pb.go $(CL_DIR)/
+	cp $(BUF_DIR)/service.pb.go $(SRV_DIR)/
 .swarm_init:
 	docker swarm init
 stack_deploy:
