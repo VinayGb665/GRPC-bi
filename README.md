@@ -3,6 +3,7 @@ To jump into one of the client nodes and start sending messages run :
 	
     sudo sh ./run_end_to_end 
 This does a make in the background pulling a lot of data/docker-images so wait for the make to complete
+
 **To build locally :** 
 
  
